@@ -265,6 +265,24 @@ function SystemArchitecture() {
                                 'HTML',
                                 'CSS'
                             ]
+                        },
+                        {
+                            title: 'GoldRush: Inventory and Sales Management System',
+                            description: 'A Java-based desktop application built with NetBeans, designed to help businesses efficiently manage their inventory and point-of-sale (POS) operations through a clean, user-friendly interface.',
+                            details: [
+                                'User authentication and role-based access (Admin & Employee)',
+                                'Product ordering, payment, and returns (Full POS functionality)',
+                                'Inventory control: add, restock, modify, void products',
+                                'Sales reports and graph visualizations',
+                                'Low stock alerts and sales history tracking',
+                                'Backup & restore for database using SQL files'
+                            ],
+                            tech: [
+                                'MySQL',
+                                'Java',
+                                'Java Swing',
+                                'NetBeans'
+                            ]
                         }
                     ].map((project, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
@@ -288,7 +306,7 @@ function SystemArchitecture() {
                                     children: project.title
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 50,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -296,7 +314,7 @@ function SystemArchitecture() {
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 51,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -307,7 +325,7 @@ function SystemArchitecture() {
                                             children: "Features:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 53,
                                             columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -316,18 +334,18 @@ function SystemArchitecture() {
                                                     children: detail
                                                 }, i, false, {
                                                     fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 56,
                                                     columnNumber: 11
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 54,
                                             columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 52,
                                     columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -337,18 +355,18 @@ function SystemArchitecture() {
                                             children: tech
                                         }, i, false, {
                                             fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 62,
                                             columnNumber: 10
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/SystemArchitecture.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 60,
                                     columnNumber: 8
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/app/components/SystemArchitecture.tsx",
-                            lineNumber: 28,
+                            lineNumber: 42,
                             columnNumber: 7
                         }, this))
                 }, void 0, false, {

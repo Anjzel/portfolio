@@ -23,6 +23,20 @@ export default function SystemArchitecture() {
 							],
 							tech: ['Python', 'Flask', 'TensorFlow', 'Javascript', 'HTML', 'CSS'],
 						},
+
+						{
+							title: 'GoldRush: Inventory and Sales Management System',
+							description: 'A Java-based desktop application built with NetBeans, designed to help businesses efficiently manage their inventory and point-of-sale (POS) operations through a clean, user-friendly interface.',
+							details: [
+								'User authentication and role-based access (Admin & Employee)',
+								'Product ordering, payment, and returns (Full POS functionality)',
+								'Inventory control: add, restock, modify, void products',
+								'Sales reports and graph visualizations',
+								'Low stock alerts and sales history tracking',
+								'Backup & restore for database using SQL files',
+							],
+							tech: ['MySQL','Java','Java Swing','NetBeans'],
+						},
 						
 					].map((project, index) => (
 						<motion.div
